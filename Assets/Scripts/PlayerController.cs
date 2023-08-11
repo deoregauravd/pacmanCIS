@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour
         else if (other.CompareTag("Enemy"))
         {
             RestartLevel();
+            Debug.Log("RestartLevel");
         }
     }
 
